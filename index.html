@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <style>
+            .page {
+                font: 12px/1.3 Arial, Helvetica, sans-serif;
+                background: #eee;
+                color: #333;
+                margin: 0;
+                min-height: 100vh;
+            }
+
+            a { text-decoration: none; }
+            a:link, a:visited { color: #000; }
+            a:hover { color: #f00; text-decoration: underline; }
+
+            .card-holder {
+                height: 100vh;
+            }
+
+            .card {
+                position: relative;
+                top: 50%;
+                width: 540px;
+                height: 300px;
+                margin: -150px auto 0 auto;
+                clip-path: polygon(0 0, 86% 0, 100% 50%, 86% 100%, 0 100%);
+                background: #fff;
+            }
+
+            .info {
+                position: relative;
+                padding: 30px 140px 30px 165px;
+            }
+
+            .info p {
+                margin: 0;
+            }
+
+            .info__logo {
+                position: absolute;
+                top: 124px;
+                left: 27px;
+                width: 110px;
+                height: 46px;
+                background: 50% 50% no-repeat url('//yastatic.net/islands/_/RQWGFypkIRAzEbaERs_Sq8zKRzY.svg');
+                background-size: contain;
+            }
+
+            .info__head {
+                min-height: 98px;
+                margin-bottom: 10px;
+            }
+
+            .info__title {
+                font-size: 25px;
+                font-weight: normal;
+                margin: 0 0 0 -0.04em;
+            }
+
+            .info__role {
+                font-weight: normal;
+                font-size: 13px;
+            }
+
+            .info__address {
+                margin-bottom: 10px;
+            }
+
+            .info__contacts a:link,
+            .info__contacts a:visited { color: #2879ac; }
+            .info__contacts a:hover { color: #f00; }
+        </style>
+    </head>
+    <body class="page">
+        <div class="card-holder">
+            <div class="card">
+                <div class="info">
+                    <div class="info__logo"></div>
+                    <div class="info__head">
+                        <h1 class="info__title">Михаил Трошев</h1>
+                        <strong class="info__role">Руководитель службы поисковых интерфейсов</strong>
+                    </div>
+                    <div class="info__address">
+                        <p>Россия, Москва, 119021<br/>ул. Льва Толстого, д. 16</p>
+                        <p><a href="tel:+79262267429">+7 (926) 226-74-29</a></p>
+                        <p><a href="https://yandex.ru/search/?text=михаил+трошев+яндекс">www.yandex.ru</a></p>
+                    </div>
+                    <br/>
+                    <div class="info__contacts">
+                        <p><a href="mailto:mishanga@yandex-team.ru">mishanga@yandex-team.ru</a></p>
+                        <p><a href="https://github.com/mishanga">github.com/mishanga</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
