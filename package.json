@@ -1,0 +1,13 @@
+{
+  "name": "mishanga.pro",
+  "version": "1.0.0",
+  "description": "http://mishanga.pro",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mishanga/mishanga.pro.git"
+  },
+  "author": "mishanga@yandex-team.ru",
+  "private": true,
+  "devDependencies": {}
+}
